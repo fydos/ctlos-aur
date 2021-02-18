@@ -1,5 +1,5 @@
 [Unit]
-Description=Lazily sets to check for aurto git updates every day
+Description=Lazily sets to check for aur git updates every day
 
 [Timer]
 OnCalendar=*-*-* 08:29:00

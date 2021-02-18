@@ -1,5 +1,5 @@
 [Unit]
-Description=Updates 'aurto' repo every hour
+Description=Upgrade 'aur' repo every hour
 
 [Timer]
 OnCalendar=*-*-* *:25:00

@@ -13,7 +13,7 @@ filter_vcs() {
 
 # Note that valid PKGBUILDs cannot contain \n in pkgname.
 get_latest_revision() {
-    grep -Fxf - <(printf '%s\n' *) | xargs -r aur srcver
+    grep -Fxf - <(printf '%s\n' *) | xargs -r aur srcver --noprepare
 }
 
 db_tmp=$(mktemp)

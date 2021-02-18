@@ -3,4 +3,4 @@ Description=Lazily sets to check for aurto git updates
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/touch /usr/lib/aurto/check-vcs
+ExecStart=/usr/bin/touch /tmp/check-vcs

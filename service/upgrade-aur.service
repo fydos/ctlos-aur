@@ -1,7 +1,7 @@
 [Unit]
-Description=Updates 'aurto' repo
+Description=Upgrades 'aur' repo
 After=network-online.target
 Wants=network-online.target
 
 [Service]
-ExecStart=/usr/lib/aurto/update-aurto
+ExecStart=/ctlos-aur/aurdb.sh upgrade
